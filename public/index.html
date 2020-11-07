@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>地理地图</title>
+    <link  rel="stylesheet" href="../assets/css/framework.css" >
+  </head>
+  <body>
+    <div id="chartdiv" style="width: 100%;height: 100%"></div>
+    <div id="mapTool" style="display: none;z-index: 99;float:left;position: absolute;top:0; right: 50px">
+        <button id="worldBtn" style="width: 50px;">世界</button>
+        <button id="asiaBtn"  style="width: 50px;">亚洲</button>
+        <button id="chinaBtn" style="width: 50px;">中国</button>
+        <button id="earthBtn" style="width: 50px;">地球</button>
+        <button id="switchBtn" style="width: 50px;">切换</button>
+    </div>
+    <div style="height: 100%; justify-content: center;position: relative" id="map"/>
+    <div id="cesiumContainer">
+        <div id="slider"></div>
+    </div>
+
+    <div id="loadingOverlay"><h1>Loading...</h1></div>
+    <div id="toolbar"></div>
+    <!-- built files will be auto injected -->
+
+  </body>
+</html>
